@@ -23,6 +23,8 @@ Uma vez que cada cluster formado e mutuamente exclusivo, nunca pode haver uma re
 
 ![image](https://user-images.githubusercontent.com/87387315/168317288-b85c8224-ac20-40b6-a36c-c05818a49736.png)
 
+(*) Ver explicação em excel do exercisio a  continuação para achar os centroides k-means.xlsc
+
 ![image](https://user-images.githubusercontent.com/87387315/168317730-16be9494-255a-4a31-977a-9c6c8b98a335.png)
 
 ![image](https://user-images.githubusercontent.com/87387315/168317660-dfbfe2ff-b1f8-4eea-a892-5f5ec2e125ed.png)
