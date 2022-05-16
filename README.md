@@ -24,6 +24,7 @@ Uma vez que cada cluster formado e mutuamente exclusivo, nunca pode haver uma re
 ![image](https://user-images.githubusercontent.com/87387315/168317288-b85c8224-ac20-40b6-a36c-c05818a49736.png)
 
 (*) Ver explicação em excel do exercisio a  continuação para achar os centroides k-means.xlsc, sem qualquer conhecimento previo uma tecnica sugere que k seja igual a raiz quadrada de n/2. Onde n é o numero de dados. Para verificar que estamos trabalhando com o k ideal podemos aplicar o método elbow.
+![image](https://user-images.githubusercontent.com/87387315/168631867-18488fd6-c807-4706-9bba-5902ba2b9326.png)
 
 ![image](https://user-images.githubusercontent.com/87387315/168631693-3e578b7a-aa01-4fd7-a4f2-3b7a76e3756d.png)
 
