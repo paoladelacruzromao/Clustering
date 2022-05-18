@@ -51,7 +51,6 @@ Soma as distancias das amostras para seu centro mais proximo de agrupamento  mai
 
 
 
-
  
  
  
