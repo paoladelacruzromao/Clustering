@@ -32,3 +32,28 @@ Uma vez que cada cluster formado e mutuamente exclusivo, nunca pode haver uma re
 
 ![image](https://user-images.githubusercontent.com/87387315/168317660-dfbfe2ff-b1f8-4eea-a892-5f5ec2e125ed.png)
 
+### Clustering metrics
+
+Vários métodos podem ser usados na avaliação de algoritmos de agrupamento.Para isso é necessario saber quais seram as divisões do cluster, as saídas previstas (ground truth - o valor observado, valor historico), para poder comparar com o resultado do modelo, cabe resaltar que nem sempre temos essas informações disponiveis. Essas métricas incluem:
+
+***Homogeneity score.*** O resultado de um cluster é dito homogêneo se seus clusters contiverem apenas dados que são membros de uma única classe.
+
+***Completeness score.*** a pontuação verifica se todos os membros de uma determinada classe são atribuídos ao mesmo cluster. 
+
+***V measure score.*** a media entre`homogeneity e completeness. 
+ 
+ Estas métricas tem pontoações entre 0 e 1 sendo desejada o número maior.
+ 
+ Temos outas métricas que não requerem das saídas previstas:
+ 
+***Inercia ***
+Soma as distancias das amostras para seu centro mais proximo de agrupamento  mais próxima. Como sabemos dentro de um cluster queremos a menos distancia posivel, e entre cluster a maior distancia posivel. Podemos aplicar o método do elbow para determinar o melhor K.
+
+
+
+
+ 
+ 
+ 
+
+
