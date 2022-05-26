@@ -49,6 +49,24 @@ Vários métodos podem ser usados na avaliação de algoritmos de agrupamento.Pa
 ***Inercia ***
 Soma as distancias das amostras para seu centro mais proximo de agrupamento  mais próxima. Como sabemos dentro de um cluster queremos a menos distancia posivel, e entre cluster a maior distancia posivel. Podemos aplicar o método do elbow para determinar o melhor K.
 
+## DBSCAN
+
+http://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) é um algoritmo de clustering popular usado como uma alternativa ao K-Means, em análise preditiva. Ele não requer que você defina o número de clusters. Mas em troca, você tem que ajustar dois outros parâmetros.
+
+O Agrupamento Espacial Baseado em Densidade de Aplicações com Ruído (DBSCAN) é um algoritmo de agrupamento de dados proposto por Martin Ester, Hans-Peter Kriegel, Jörg Sander e Xiaowei Xu em 1996. Trata-se de um algoritmo de agrupamento baseado em densidade: dado um conjunto de pontos em algum espaço, agrupa pontos que estão intimamente próximos (pontos com muitos vizinhos próximos), e marcando como outliers pontos que estão sozinhos em regiões de baixa densidade (vizinhos que estão muito longe). DBSCAN é um dos algoritmos de agrupamento mais comuns e também mais citados na literatura científica.
+
+Em 2014, o algoritmo foi premiado com o prêmio de teste de tempo na principal conferência de mineração de dados, KDD.
+
+A implementação do Scikit-Learn fornece um padrão para os parâmetros eps e min_samples, mas que geralmente devem ser ajustados. O parâmetro eps é a distância máxima entre dois pontos de dados a serem considerados na mesma vizinhança. O parâmetro min_samples é a quantidade mínima de pontos de dados em um bairro (neighborhood) a ser considerado um cluster.
+
+Uma vantagem do DBSCAN sobre o K-Means é que DBSCAN não é restrito a um número de conjuntos de clusters durante a inicialização. O algoritmo determinará um número de aglomerados com base na densidade de uma região. Tenha em mente, no entanto, que o algoritmo depende dos parâmetros eps e min_samples para descobrir qual a densidade de cada cluster.
+
+Como o algoritmo DBSCAN tem um conceito interno de ruído, é comumente usado para detectar valores anómalos nos dados - por exemplo, atividade fraudulenta em cartões de crédito, e-commerce ou reivindicações de seguros.
+
+![image](https://user-images.githubusercontent.com/87387315/170515919-35ebc6ee-4542-4ab3-82b3-51fa4de88e18.png)
+
 
 
  
