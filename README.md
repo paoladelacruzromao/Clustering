@@ -67,6 +67,22 @@ Como o algoritmo DBSCAN tem um conceito interno de ruído, é comumente usado pa
 
 ![image](https://user-images.githubusercontent.com/87387315/170515919-35ebc6ee-4542-4ab3-82b3-51fa4de88e18.png)
 
+## Mean Shift
+
+http://scikit-learn.org/stable/modules/generated/sklearn.cluster.MeanShift.html
+
+https://docs.opencv.org/4.2.0/d7/d00/tutorial_meanshift.html
+
+O Mean Shift é uma técnica não-paramétrica de análise de espaço de características para localizar os máximos de uma função de densidade. Pode ser usado para análise de cluster, visão computacional e processamento de imagem. Foi originalmente proposto em 1975.
+
+Em contraste com o algoritmo K-Means, a saída do Mean Shift não depende de quaisquer suposições explícitas sobre a forma da distribuição de pontos de dados, o número de clusters ou qualquer forma de inicialização aleatória.
+
+Uma formulação geral do algoritmo Mean Shift pode ser desenvolvida através da consideração de núcleos (Kernels) de densidade. Esta abordagem é muitas vezes referida como estimativa de densidade de kernel - um método para estimativa de densidade que muitas vezes converge mais rapidamente e que também gera uma boa estimativa contínua para a função de densidade.
+
+Essencialmente, o Mean Shift trata o problema de agrupamento supondo que todos os pontos dados representam amostras de alguma função de densidade de probabilidade, com regiões de alta densidade de amostra correspondendo aos máximos locais desta distribuição. Para encontrar esses máximos locais, o algoritmo funciona permitindo que os pontos se atraiam, por meio do que poderia ser considerado uma espécie de "força gravitacional de curto alcance". Permitindo que os pontos gravitem para áreas de maior densidade, pode-se mostrar que eles eventualmente se unificarão em uma série de pontos, próximos aos máximos locais da distribuição. Esses pontos de dados que convergem para os mesmos máximos locais são considerados membros do mesmo cluster.
+
+Em conclusão o DBscan utiliza vecinos mais proxinos e Meanshift utiliza a função de densidade de probabilidade, e ningum dos dois requer a especificar a quantidade de clusters previamente como no caso de Kmeans
+
 
 
  
